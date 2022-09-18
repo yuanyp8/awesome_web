@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>more choice</title>
+    <style type="text/css">
+        .p{
+            background: #fad7f0;
+        }
+        .mydiv p {
+            background: aqua;
+        }
+
+        /*群组选择器*/
+       .a1,.a2,p{
+        background: #640080;
+        }
+    </style>
+</head>
+<body>
+
+<p>to do list:</p>
+<div>
+    <p>Today's weather is not bad!</p>
+    <p class="p">I hope tomorrow's weather also keep not bad!</p>
+</div>
+<!--后代选择器-->
+<p>to do list2:</p>
+<div class="mydiv">
+    <p>Today's weather is not bad!</p>
+    <p>I hope tomorrow's weather also keep not bad!</p>
+</div>
+
+
+<!--群组选择器-->
+<div>
+    <p class="a1">A</p>
+    <p class="a2">B</p>
+    <p class="a1">C</p>
+</div>
+</body>
+</html>
